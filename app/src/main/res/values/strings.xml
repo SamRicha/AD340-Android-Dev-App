@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Appleo</string>
+    <string name="my_name">Hi, I\'m Sam</string>
+    <string name="first_detail">\u25A0 I like to run</string>
+    <string name="second_detail">\u25A0 My favorite food is Pho</string>
+    <string name="third_detail">\u25A0 I volunteer when I have free time</string>
+</resources>
