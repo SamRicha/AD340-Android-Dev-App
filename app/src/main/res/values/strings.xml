@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Appleo</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="button1">Zombie Movie List</string>
+    <string name="button2">Peanut Butter</string>
+    <string name="button3">Milk</string>
+    <string name="button4">Bacon</string>
+    <string name="listview_year">Year:&#160;</string>
+
+</resources>
