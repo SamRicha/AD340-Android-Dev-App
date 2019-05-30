@@ -3,9 +3,14 @@
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
     <string name="button1">Zombie Movie List</string>
-    <string name="button2">Peanut Butter</string>
+    <string name="button2">Live Cams</string>
     <string name="button3">Milk</string>
     <string name="button4">Bacon</string>
     <string name="listview_year">Year:&#160;</string>
+    <string name="cams">Cams</string>
+    <string name="camaddress">camAddress</string>
+    <string name="traffic_cams">Traffic Cams</string>
+    <string name="live_cams">Live Cams</string>
+    <string name="title">title</string>
 
 </resources>
