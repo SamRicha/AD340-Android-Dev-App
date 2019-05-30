@@ -1,5 +1,9 @@
 package com.example.appleo;
 
+import android.app.Dialog;
+import android.util.Log;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
 import android.content.Context;
 import android.net.NetworkInfo;
 import android.widget.Toast;
@@ -30,9 +34,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(MainActivity.this,"Message Sent",Toast.LENGTH_SHORT).show();
     }
 
-    public void displayToast2(View v) {
-        Toast.makeText(MainActivity.this,"Jelly",Toast.LENGTH_SHORT).show();
-    }
 
     public void displayToast3(View v) {
         Toast.makeText(MainActivity.this,"Cookies",Toast.LENGTH_SHORT).show();
@@ -53,6 +54,10 @@ public class MainActivity extends AppCompatActivity {
             online = true;
         }
         return online;
+    }
+    public void MapActivity(View view){
+        Intent intent = new Intent(this, MapActivity.class);
+        startActivity(intent);
     }
 
     public void liveCams(View view){
